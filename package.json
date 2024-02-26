@@ -1,9 +1,9 @@
 {
-  "name": "nextchat",
+  "name": "chat-web",
   "private": false,
   "license": "mit",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 9000",
     "build": "cross-env BUILD_MODE=standalone next build",
     "start": "next start",
     "lint": "next lint",

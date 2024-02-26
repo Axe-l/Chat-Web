@@ -178,12 +178,11 @@ export function SideBar(props: { className?: string }) {
             }
           }}
           shadow
-        />
-        <IconButton
-          icon={<PluginIcon />}
+          />
+         <IconButton
           text={shouldNarrow ? undefined : Locale.Plugin.Name}
           className={styles["sidebar-bar-button"]}
-          onClick={() => showToast(Locale.WIP)}
+          onClick={() => window.open("https://6ui.net", "_blank")}
           shadow
         />
       </div>

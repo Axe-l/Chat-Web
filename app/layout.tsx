@@ -33,11 +33,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="cn">
       <head>
         <meta name="config" content={JSON.stringify(getClientConfig())} />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
+        <script async src="https://sy.952727.xyz/script.js" data-website-id="f79a6ab5-d844-4b3a-bdc1-967887001820"></script>
       </head>
       <body>
         {children}
