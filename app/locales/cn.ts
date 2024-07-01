@@ -403,7 +403,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "插件",
+    Name: "探索更多好玩 ！！",
   },
   FineTuned: {
     Sysmessage: "你是一个助手",
