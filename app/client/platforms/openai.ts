@@ -8,7 +8,7 @@ import {
   ServiceProvider,
 } from "@/app/constant";
 import { useAccessStore, useAppConfig, useChatStore } from "@/app/store";
-
+import RobotIcon from "../icons/robot.svg";
 import {
   ChatOptions,
   getHeaders,
@@ -165,7 +165,7 @@ export class ChatGPTApi implements LLMApi {
             responseText += remainText;
             console.log("[Response Animation] finished");
             if (responseText?.length === 0) {
-              options.onError?.(new Error("empty response from server"));
+              options.onError?.(new Error("请在下面 RobotIcon 切换 Gemini-1.0-pro使用  empty response from server"));
             }
             return;
           }
